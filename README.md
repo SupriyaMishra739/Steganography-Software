@@ -1,37 +1,17 @@
-# Steganography in Images
+# 🔐 Steganography Software
 
 This project implements **steganography** in images, allowing users to **hide secret messages** inside an image and later extract them using a password.
 
-## Features
+## 📌 Features
 - **Encode text** into an image using **Least Significant Bit (LSB) modification**.
 - **Support for password protection** to secure the hidden message.
 - **Decode hidden messages** from an image, requiring the correct password for decryption.
 - **Supports encoding from text input or file input**.
 
-## Technologies Used
+## 🛠️ Technologies Used
 - Python
 - Jupyter Notebook
 - **Pillow (PIL)** for image processing
-
-## Installation
-1. Clone this repository:
-   ```bash
-   git clone https://github.com/yourusername/steganography-project.git
-   cd steganography-project
-   ```
-2. Install required dependencies:
-   ```bash
-   pip install pillow
-   ```
-
-## Usage
-Run the script inside a **Jupyter Notebook** or a Python environment.
-
-```python
-from PIL import Image
-from IPython.display import display
-incript()  # Runs the main function
-```
 
 ### Encoding a Message
 1. Enter the image file name (e.g., `image.png`).
